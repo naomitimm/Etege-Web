@@ -1,0 +1,76 @@
+footer {
+	height: 55vh;
+	width: 100vw;
+	min-width: 100vw;
+	background-color: black;
+	position: relative;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer .appHeadline {
+	color: white;
+	margin: 1rem 0;
+}
+
+footer .appHeadline:hover {
+	color: #f49cbb;
+}
+
+.third-party,
+.company-focused,
+.socials {
+	margin: 0.8rem 0;
+	display: flex;
+}
+
+footer a {
+	color: white;
+	margin: 0 3rem;
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+}
+
+.social {
+	border: 1px solid white;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 30px;
+}
+
+.grey {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.grey a {
+	color: rgb(114, 114, 114);
+	margin: 0.1rem 3rem;
+}
+
+.grey a:hover {
+	color: #f49cbb;
+	text-decoration: none;
+}
+
+.company-focused a,
+.third-party a {
+	color: rgb(114, 114, 114);
+	margin: 0.1rem 3rem;
+}
+
+.company-focused a:hover,
+.third-party a:hover {
+	color: #f49cbb;
+	text-decoration: underline;
+}

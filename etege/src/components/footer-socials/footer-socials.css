@@ -1,0 +1,25 @@
+.footer-social-media svg path {
+	color: grey;
+}
+
+.footer-social-media svg {
+	padding: 1rem 1.4rem;
+	border: 0px solid white;
+	margin: 1rem 1rem;
+	border-radius: 2rem;
+}
+
+.footer-social-media svg path:hover,
+.footer-social-media svg path:focus {
+	color: #f49cbb;
+}
+
+.footer-social-media .svg-inline--fa {
+	height: 2rem;
+}
+
+.footer-social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

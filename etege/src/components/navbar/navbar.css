@@ -1,0 +1,71 @@
+.navbar a {
+	text-decoration: none;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 6rem;
+	padding: 0 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto 2rem auto;
+	/* TRBL */
+}
+
+.navbar.active {
+	background: linear-gradient(90deg, #e84c6c 0%, #f49cbb 100%);
+}
+
+.links {
+	display: flex;
+	align-items: center;
+}
+
+.links a {
+	padding: 0 2rem;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.links a:hover {
+	color: #f26a8d;
+	text-decoration: underline;
+}
+
+.active .appHeadline {
+	color: white;
+}
+
+.active .links a {
+	color: white;
+}
+
+.active .links a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.links button {
+	border-radius: 1rem;
+	width: 8rem;
+	height: 2.3rem;
+	border: none;
+	background-color: #f26a8d;
+	color: white;
+	font-size: 0.9em;
+	font-weight: 600;
+	margin-right: 2rem;
+}
+
+.active .links button {
+	background-color: white;
+	color: #f26a8d;
+}
+
+.links button:hover {
+	cursor: pointer;
+}
