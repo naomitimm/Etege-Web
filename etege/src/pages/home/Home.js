@@ -1,5 +1,8 @@
 import pink from "../../assets/pink.svg";
+import ImageGrid from "../../components/image-grid/ImageGrid";
+import ServiceCard from "../../components/service-card/ServiceCard";
 import "./home.css";
+
 const Home = () => {
 	return (
 		<div className="home">
@@ -7,7 +10,7 @@ const Home = () => {
 				<div className="landing">
 					<div className="textual">
 						<div className="text">
-							<h1>Travel to any corner of the world</h1>
+							<h1>Lorem ipsum dolor sit amet consectetur</h1>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
 								nemo quibusdam laudantium tempore sit eius, autem illum quos
@@ -22,6 +25,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+			<ServiceCard />
 		</div>
 	);
 };
