@@ -1,0 +1,96 @@
+.about {
+	height: 100%;
+	box-sizing: border-box;
+	/* padding: 0 2rem;
+	margin: 0 4rem; */
+}
+
+.about .main-content {
+	display: flex;
+	flex-direction: column;
+	height: 85vh;
+	/* border: 0.1px solid #66ddaa;
+	border-radius: 30px; */
+	/* padding: 1rem; */
+	width: 100vw;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.about .slogan,
+.about .about-us {
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.about img.main {
+	width: 40%;
+}
+
+.about .about-text {
+	width: 60%;
+}
+
+.about-text h2,
+.about-text p {
+	color: white;
+	text-align: start;
+}
+
+.about-text h2 {
+	text-transform: capitalize;
+}
+
+.about-text p,
+.width {
+	width: 70%;
+	padding: 1rem 4rem;
+}
+
+.width {
+	text-align: start !important;
+}
+
+.about-text h2,
+.about-text p {
+	color: #880d1e;
+	text-align: start;
+}
+
+.about-text h2 {
+	text-transform: capitalize;
+}
+
+.about-text p,
+.width {
+	width: 70%;
+	padding: 1rem 4rem;
+}
+
+.action-btn {
+	margin: 2rem;
+	width: 25%;
+	height: 3rem;
+	background-color: #880d1e;
+	border: none;
+	color: white;
+	font-size: 1em;
+	font-weight: 600;
+	border-radius: 10px;
+}
+
+.action-btn:hover {
+	background-color: white;
+	color: #880d1e;
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+	box-shadow: 1px 3px 5px #880d1e;
+}
+
+.slogan .about-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

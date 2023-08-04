@@ -1,5 +1,4 @@
 import pink from "../../assets/pink.svg";
-import ImageGrid from "../../components/image-grid/ImageGrid";
 import ServiceCard from "../../components/service-card/ServiceCard";
 import "./home.css";
 
