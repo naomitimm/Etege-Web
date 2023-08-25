@@ -43,3 +43,9 @@
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
 }
+
+.explore-content .service-img {
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	height: 65%;
+}

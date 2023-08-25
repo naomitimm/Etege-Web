@@ -21,8 +21,8 @@ const NavBar = () => {
 				<Link to="/about">About</Link>
 				<Link to="/self-exams">Self Exams</Link>
 				<Link to="/consultations">Consultations</Link>
-				<Link to="/register">
-					<button>Register</button>
+				<Link to="/login">
+					<button>Login</button>
 				</Link>
 			</div>
 		</nav>
