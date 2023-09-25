@@ -19,8 +19,9 @@ const NavBar = () => {
 			<div className="links">
 				<Link to="/">Home</Link>
 				<Link to="/about">About</Link>
-				<Link to="/self-exams">Self Exams</Link>
+				<Link to="/self-examination">Self Exams</Link>
 				<Link to="/consultations">Consultations</Link>
+				<Link to="/donate">Donate</Link>
 				<Link to="/login">
 					<button>Login</button>
 				</Link>
